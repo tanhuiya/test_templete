@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="../css/style.css" rel="stylesheet" type="text/css">
+<link href="../bootstrap-3.3.5/dist/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+<script src="../bootstrap-3.3.5/dist/js/bootstrap.min.js" type="text/javascript"></script>
+<script src="../js/jquery-3.1.1.min.js" type="text/javascript"></script>
+<title>维护场景选择</title>
+</head>
+
+<body>
+<div class="status"></div>
+<div class="nav">
+	<h1>维护场景选择</h1>
+    <div class="nav_userline">
+    	<a class="nav_back" href="index.html">&lt;&nbsp;用户登录</a>
+        <div class="nav_user">
+            <p>甲某某</p>
+            <img src="../img/user.png">
+        </div>
+    </div>
+
+</div>
+<div class="body">
+	<div class="number"><p>052346</p></div>
+	<div class="body_scene_select_box">
+    	<div class="body_scene_select_title">设备信息查询</div>
+        <div class="body_scene_select_prompt">请扫描设备条形码，或直接输入设备编码信息</div>
+        <div class="body_scene_select_barcode">
+        	<div class="body_scene_select_barcode_img"><img src="../img/barcode.png"></div>
+            <input placeholder="输入框">
+        </div>
+    </div>
+    <div class="body_scene_select_box">
+    	<div class="body_scene_select_title">对纤操作</div>
+        <div class="body_scene_select_prompt">辅助用于理清光纤的走线对应关系</div>
+        <div class="body_scene_select_barcode">
+        	<div class="body_scene_select_barcode_light">
+            	<img src="../img/light.png">
+                <p>光纤集束端</p>
+            </div>
+            <div class="body_scene_select_barcode_light">
+            	<img src="../img/light_user.png">
+                <p>光纤用户端</p>
+            </div>
+        </div>
+    </div>
+</div>
+<!--<a href="" class="bottom_more"><img src="../img/more.png"></a>-->
+<div class="bottom_more"></div>
+
+<div class="window window_color">
+	<div class="window_toptitle"><p>请选择对纤操作码</p></div>
+    <div class="window_box" style="margin-top:20px">
+    	<div class="window_title"><p>已有他人选择</p></div>
+        <a>096210</a>
+        <a>233676</a>
+        <a>305294</a>
+    </div>
+    <div class="window_box" style="margin-bottom:14px">
+    	<div class="window_title"><p>未选择随机操作码</p></div>
+        <a>096210</a>
+        <a>323423</a>
+        <a>024353</a>
+        <a>234523</a>
+        <a>052346</a>
+        <a>325345</a>
+    </div>
+    <input type="submit" value="确定" class="window_button">
+</div>
+
+<!--<div class="window window_color">
+  <div class="window_toptitle"><p>对应关系</p></div>
+    <div class="window_box" style="margin-top:20px; margin-bottom:70px">
+    	<div class="window_title"><p style="font-size:26px;">操作员B已经确认选择对应关系为：</p></div>
+        <div style=" text-align:center; color:#0072bb; margin-top:50px">Fline5</div>
+        <div style="height:20px; width:2px; background-color:#333; margin:auto"></div>
+        <div style=" text-align:center;color:#0072bb; margin-bottom:20px">用户18112332323光纤</div>
+        <div class="loading_line"><img src="../img/load.png"><p>请稍后……</p></div>
+    </div>
+</div>-->
+<a class="loading_wait" href="A_prepare3_1.html">
+    <div class="window_toptitle"><p>对应关系</p></div>
+	<img src="../img/load.png">
+    <p>正在等待其他协同人员连接到服务器…</p>
+</a>
+<div class="backgroung_color"></div>
+<script>
+$(".loading_wait").hide();
+$(".number").hide();
+$(document).ready(function(){
+	$(".window_button").click(
+		function(){
+			$(".window").hide();
+			$(".backgroung_color").hide();
+            $(".number").show()
+			}
+	);
+	$(".bottom_more").click(
+		function(){
+			$(".loading_wait").show();
+			$(".backgroung_color").show();
+			}
+	);
+	$(".number").click(
+		function(){
+			$(".window").show();
+			$(".backgroung_color").show();
+			}
+	)
+	}
+);
+</script>
+</body>
+</html>

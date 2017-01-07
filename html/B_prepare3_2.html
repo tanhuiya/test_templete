@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="../css/style.css" rel="stylesheet" type="text/css">
+<link href="../bootstrap-3.3.5/dist/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+<script src="../js/jquery-3.1.1.min.js" type="text/javascript"></script>
+<script src="../bootstrap-3.3.5/dist/js/bootstrap.min.js" type="text/javascript"></script>
+<title>光纤用户端</title>
+</head>
+
+<body>
+<div class="status"></div>
+<div class="nav">
+	<h1>光纤用户端</h1>
+    <div class="nav_userline">
+    	<a class="nav_back" href="index.html">&lt;&nbsp;用户登录</a>
+        <div class="nav_user">
+            <p>乙某某</p>
+            <img src="../img/user.png">
+        </div>
+    </div>
+
+</div>
+<div class="body">
+	<div class="number"><p>052346</p></div>
+	<div class="body_prepare_title"><p>请参照光纤识别仪的使用说明，准备好对现场光纤进行测试</p></div>
+    <div class="body_prepare_box">
+    	<img src="../img/telecontrol.png" style=" margin-bottom:20px">
+        <div class="body_prepare_select">
+        <div class="prepare_name_box">
+        	<p>请输入当前光线名称</p>
+            <div class="prepare_name"><p>光纤名称：</p><input value="用户18112332323光纤"></div>
+        </div>
+        <ol>
+        	<li>使用光纤识别仪，简单尝试夹取当前光纤，验证是否可以成功取值；</li>
+            <li>确保使用光纤识别仪，稳定的夹住光纤，是读数基本稳定下来；</li>
+            <li>点击“准备OK”；</li>
+            <div style="margin-bottom:180px; margin-left:-80px">注：熟练使用时，也可以先点击“准备OK”，再稳定住光纤识别仪；</div>
+        </ol>
+        </div>
+    </div>
+</div>
+<div class="button_ok">
+	<input type="submit" class="button_prepare"  value="准备OK">
+</div>
+<!--<a href="" class="bottom_more"><img src="../img/more.png"></a>
+<div class="window">
+	<div class="window_toptitle"><p>请选择对纤操作码</p></div>
+    <div class="window_box" style="margin-top:20px">
+    	<div class="window_title"><p>已有他人选择</p></div>
+        <a>096210</a>
+        <a>233676</a>
+        <a>305294</a>
+    </div>
+    <div class="window_box" style="margin-bottom:14px">
+    	<div class="window_title"><p>未选择随机操作码</p></div>
+        <a>096210</a>
+        <a>323423</a>
+        <a>024353</a>
+        <a>234523</a>
+        <a>052346</a>
+        <a>325345</a>
+    </div>
+    <input type="submit" value="确定" class="window_button">
+</div>
+<div class="backgroung_color"></div>
+-->
+<a class="loading_wait" style="margin-left:-216px">
+    <div class="window_toptitle"><p>对应关系</p></div>
+    <img src="../img/load.png">
+    <p>协同人员正在准备中，请稍等…</p>
+</a>
+<div class="countdown">
+    <div class="window_toptitle"><p>倒计时</p></div>
+    <h3>3</h3>
+    <h2>2</h2>
+    <h1>1</h1>
+    <h4>开始</h4>
+</div>
+
+<div class="backgroung_color"></div>
+
+<script>
+/*$(".window").hide();*/
+$(".countdown").hide();
+
+$(document).ready(function(){
+    $(".loading_wait").show().delay(1000).fadeOut();
+    $(".backgroung_color").show().delay(1000).fadeOut();
+    $(".window_button").click(
+        function(){
+            $(".window").hide();
+            $(".backgroung_color").hide();
+            $(".number").show()
+            }
+    );
+    $(".number").click(
+        function(){
+            $(".window").show();
+            $(".backgroung_color").show();
+            }
+    );
+    /*$(".loading_wait").click(
+        function(){
+            $(".loading_wait").hide();
+            $(".backgroung_color").hide()
+        }
+        )*/
+    /*$(".button_prepare").click(
+        function(){
+            $(".loading_wait").hide();
+            $(".countdown").show();
+            $(".countdown h3").fadeOut(1000);
+            $(".countdown h2").fadeOut(2000);
+            $(".countdown h1").fadeOut(3000);
+            $(".countdown h4").css("color","#0072bb");
+            $(".backgroung_color").show()
+            }
+    );*/
+    $(".button_prepare").click(
+        function(){
+            $(".loading_wait").hide();
+            $(".countdown").show();
+            $(".countdown h3").fadeOut(1000);
+            $(".countdown h2").fadeOut(2000);
+            $(".countdown h1").fadeOut(3000);
+            $(".countdown h4").css("color","#0072bb");
+            $(".backgroung_color").show();
+            }
+    );
+    $(".countdown h4").click(
+        function(){
+            window.location.href="B_operate4_1.html";
+            }
+    )
+    }
+);
+
+</script>
+</body>
+</html>
