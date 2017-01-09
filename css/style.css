@@ -9,70 +9,70 @@ textarea{resize : none; outline:none}
 img{margin:0}
 /*index*/
 .status,.nav{ background-color:#0072bb}
-.status{height:20px; width:100%;}
-.nav{ height:44px}
+.status{height:20px; width:100%;position:fixed}
+.nav{margin-top:20px; height:44px;width:100%;position:fixed}
 .nav h1{line-height:44px; color:white; text-align:center; margin:0; font-size:18px}
 
-.body{ text-align:center;background-color:#f8f8f8}
+.body{text-align:center;background-color:#f8f8f8;padding-top:64px}
 .body_logo{text-align:center; overflow:hidden}
 .body_logo img{width:60px; margin-top:50px}
-.body_logo p{ margin-bottom:5px;font-size:52px; margin-top:20px; color:#0072bb;}
-.body_input{ margin:28px auto;background-color:white;width:62%;  border:1px solid #bebebe; overflow:hidden; border-radius:4px}
-.body_input img{ float:left;height:40px; margin:16px}
-.body_input input{ float:left;width:82%;border:none; margin:12px 0; color:#000}
-.login{margin:16px auto; background-color:#0072bb; border:none; border-radius:8px;color:white; padding:12px; width:46%; font-size:30px}
+.body_logo p{ margin-bottom:2.5px;font-size:26px; margin-top:10px; color:#0072bb;}
+.body_input{ margin:14px auto;background-color:white;width:62%;  border:1px solid #bebebe; overflow:hidden; border-radius:2px}
+.body_input img{ float:left;height:20px; margin:8px}
+.body_input input{ float:left;width:82%;border:none; margin:6px 0; color:#000}
+.login{margin:8px auto; background-color:#0072bb; border:none; border-radius:4px;color:white; padding:6px; width:46%; font-size:15px}
 
 /*scene_select2_1*/
-.nav_back{ float:left; color:#f8f8f8; margin-left:15px; font-size:28px}
-.nav_user{ float:right; overflow:hidden; margin-right:15px}
-.nav_userline{ overflow:hidden; margin-top:-60px}
-.nav_user img{ float:right; width:28px; margin:2px 6px;}
-.nav_user p{ float:right; font-size:28px; color:#f8f8f8}
+.nav_back{ float:left; color:#f8f8f8; margin-left:7.5px; font-size:14px}
+.nav_user{ float:right; overflow:hidden; margin-right:7.5px}
+.nav_userline{ overflow:hidden; margin-top:-30px}
+.nav_user img{ float:right; width:14px; margin:1px 3px;}
+.nav_user p{ float:right; font-size:14px; color:#f8f8f8}
 
-.body_scene_select_box{ padding-top:110px}
-.body_scene_select_title{color:#0c4a7f; font-size:36px; line-height:80px}
-.body_scene_select_prompt{ font-size:22px}
-.body_scene_select_barcode{ overflow:hidden; margin-top:20px}
+.body_scene_select_box{ padding-top:55px}
+.body_scene_select_title{color:#0c4a7f; font-size:18px; line-height:40px}
+.body_scene_select_prompt{ font-size:11px}
+.body_scene_select_barcode{ overflow:hidden; margin-top:10px}
 .body_scene_select_barcode_img{ overflow:hidden;float:left; margin-left:13%}
-.body_scene_select_barcode img{height:100px;}
-.body_scene_select_barcode input{ line-height:60px;margin-top:13px;width:30%;padding:6px 10px;float:right; border:1px solid #bebebe; margin-right:13%}
-.body_scene_select_barcode_light{ margin-top:20px;width:35%; float:left; margin-left:10%}
-.body_scene_select_barcode_light p{ margin-top:10px}
+.body_scene_select_barcode img{height:50px;}
+.body_scene_select_barcode input{ line-height:30px;margin-top:7px;width:30%;padding:3px 5px;float:right; border:1px solid #bebebe; margin-right:13%}
+.body_scene_select_barcode_light{ margin-top:10px;width:35%; float:left; margin-left:10%}
+.body_scene_select_barcode_light p{ margin-top:5px}
 
-.bottom_more{ position:absolute;bottom:30px; right:30px; width:52px; height:52px; }
-.bottom_stop{ position:absolute;bottom:30px; left:30px; width:52px; height:52px;}
-.bottom_step{ position:absolute;bottom:30px; left:305px; width:52px; height:52px;}
-.bottom_righttop{ position:absolute;bottom:170px; right:30px; width:52px; height:52px;}
-.bottom_right{ position:absolute;bottom:100px; right:30px; width:52px; height:52px;}
+.bottom_more{ position:fixed;bottom:15px; right:15px; width:26px; height:26px; }
+.bottom_stop{ position:fixed;bottom:15px; left:15px; width:26px; height:26px;}
+.bottom_step{ position:fixed;bottom:15px; left:153px; width:26px; height:26px;}
+.bottom_righttop{ position:fixed;bottom:85px; right:15px; width:26px; height:26px;}
+.bottom_right{ position:fixed;bottom:50px; right:15px; width:26px; height:26px;}
 
 /*prepare3_1*/
 .number{ overflow:hidden;}
-.number p{ float:right; margin-right:30px; margin-top:20px; color:#0072bb}
+.number p{ float:right; margin-right:15px; margin-top:10px; color:#0072bb}
 
 .body_prepare_title{ overflow:hidden}
-.body_prepare_title p{ text-align:left; margin-left:30px; font-size:24px; margin-bottom:20px; margin-right:30px}
+.body_prepare_title p{ text-align:left; margin-left:15px; font-size:12px; margin-bottom:10px; margin-right:15px}
 .body_prepare_box_title{ text-align:left; margin-left:30px}
 .body_prepare_box{ overflow:hidden}
 .body_prepare_select{ width:80%; margin-left:10%}
-.body_prepare_select_line{ width:33.3%; float:left; text-align:left; margin-top:10px; margin-bottom:10px}
+.body_prepare_select_line{ width:33.3%; float:left; text-align:left; margin-top:5px; margin-bottom:5px}
 .body_prepare_select ol{ float:left}
-.body_prepare_select ol li{ margin-top:15px; margin-bottom:15px;text-align:left}
-.body_prepare_select ol li input{ padding:8px 16px}
-.body_prepare_select_line label{padding-left:40px}
-.radio-inline input{ margin-left:-40px}
-#inlineRadio1,#inlineRadio2,#inlineRadio3,#inlineRadio4,#inlineRadio5,#inlineRadio6,#inlineRadio7,#inlineRadio8,#inlineRadio9,#inlineRadio10,#inlineRadio11,#inlineRadio12,#inlineRadio13,#inlineRadio14,#inlineRadio15,#inlineRadio16,#inlineRadio17,#inlineRadio18,#inlineRadio19{width:30px;height:30px}
+.body_prepare_select ol li{ margin-top:8px; margin-bottom:8px;text-align:left}
+.body_prepare_select ol li input{ padding:4px 8px}
+.body_prepare_select_line label{padding-left:20px}
+.radio-inline input{ margin-left:-20px}
+#inlineRadio1,#inlineRadio2,#inlineRadio3,#inlineRadio4,#inlineRadio5,#inlineRadio6,#inlineRadio7,#inlineRadio8,#inlineRadio9,#inlineRadio10,#inlineRadio11,#inlineRadio12,#inlineRadio13,#inlineRadio14,#inlineRadio15,#inlineRadio16,#inlineRadio17,#inlineRadio18,#inlineRadio19{width:15px;height:15px}
 
-.button_ok{ overflow:hidden; text-align:center; background-color:#f8f8f8; position:absolute;bottom:0; width:100%;}
-.button_ok input{ margin-bottom:40px; margin-top:40px;background-color:#0072bb; width:100px; height:100px; border-radius:50px; line-height:100px; color:white; border:none}
+.button_ok{ overflow:hidden; text-align:center; background-color:#f8f8f8; position:fixed;bottom:0; width:100%;}
+.button_ok input{ margin-bottom:20px; margin-top:20px;background-color:#0072bb; width:60px; height:60px; border-radius:30px; line-height:60px; color:white; border:none}
 
 /*prepare3_2*/
-.prepare_name{ width:100%; margin-left:40px}
+.prepare_name{ width:100%; margin-left:20px}
 .prepare_name p,.prepare_name input{ float:left}
-.prepare_name_box p{ text-align:left; font-size:30px}
+.prepare_name_box p{ text-align:left; font-size:15px}
 
 /*operate4*/
-.operate_step_title{ width:100%; margin-left:7%; color:#0072bb; margin-top:22px; margin-bottom:12px}
-.operate_step{text-align:left; width:100%; margin-left:7%; margin-bottom:20px; width:100%}
+.operate_step_title{ width:100%; margin-left:7%; color:#0072bb; margin-top:11px; margin-bottom:6px}
+.operate_step{text-align:left; width:100%; margin-left:7%; margin-bottom:10px; width:100%}
 
 .operate_bg{ background-color:#fcfcfc;}
 .operate_select{ width:90%; margin-left:5%}
@@ -81,55 +81,57 @@ img{margin:0}
 .operate_select_input{ width:60%}
 
 .step_left{ margin-left:10%;float:left}
-.step_left h1{ background-color:#0072bb; color:white; border-radius:360px; line-height:40px; width:40px}
-.step_point{ background-color:#f8f8f8;background-image:url(../img/point_grey.png); background-repeat:repeat-y; height:120px; width:10px; margin-left:15px}
+.step_left h1{ background-color:#0072bb; color:white; border-radius:180px; line-height:20px; width:20px ;height:20px;font-size: 10px;margin-top:10px}
+.step_point{ background-color:#f8f8f8;background-image:url(../img/point_grey.png); background-repeat:repeat-y; height:60px; width:5px; margin-left:8px}
 .step_right{ float:left; overflow:hidden; width:75%}
 /*window*/
-.window{ text-align:center;z-index:15;position:fixed;top:30%; margin-left:15%; width:70%; overflow:hidden;border-radius:16px}
+.window{ text-align:center;z-index:15;position:fixed;top:30%; margin-left:15%; width:70%; overflow:hidden;border-radius:8px}
 
-.window_icon{ text-align:center;z-index:15;position:fixed;top:35%; margin-left:15%; width:70%; overflow:hidden;border-radius:16px}
-.window_icon p{ color:white; font-size:44px; font-family:"微软雅黑"}
+.window_icon{ text-align:center;z-index:15;position:fixed;top:35%; margin-left:15%; width:70%; overflow:hidden;border-radius:8px}
+.window_icon p{ color:white; font-size:22px; font-family:"微软雅黑"}
 
 .window_color{background-color:white;}
 .window_toptitle{ text-align:left;background-color:#0072bb; border-bottom:1px solid #bebebe}
-.window_toptitle p{ color:white;margin-left:15px; font-size:32px; line-height:80px; margin-bottom:0}
-.window_box{ text-align:left;overflow:hidden;margin:auto;background-color:white; margin-bottom:10px}
-.window_box a{ line-height:60px;float:left; width:33%; text-align:center}
+.window_toptitle p{ color:white;margin-left:8px; font-size:16px; line-height:40px; margin-bottom:0}
+.window_box{ text-align:left;overflow:hidden;margin:auto;background-color:white; margin-bottom:5px}
+.window_box a{ line-height:30px;float:left; width:33%; text-align:center}
 .window_title{ float:left;width:100%; overflow:hidden;}
-.window_title p{ margin-bottom:0; margin-left:15px; margin-right:15px}
-.window_button{margin-bottom:30px;background-color:white; border-radius:10px; padding:4px 40px; border:2px solid #0072bb}
+.window_title p{ margin-bottom:0; margin-left:7px; margin-right:8px}
+.window_button{margin-bottom:15px;background-color:white; border-radius:5px; padding:2px 20px; border:1px solid #0072bb}
 
-.select_line_before_rel input{width:30%;margin-top:20px;margin-bottom:30px;padding:4px 40px;background-color: #0072bb; text-align: center; color: white;border:none;border-radius: 10px}
-.select_line_before_rel h1{color:black;margin-left: 18%; float: left; font-size: 34px; font-weight: normal;}
-.select_line_before_rel h2{ float: left;font-size: 34px; font-weight: normal;color: #0072bb}
+.select_line_before_rel button{width:32%;margin-top:10px;margin-bottom:15px;padding:2px 20px;background-color: #0072bb; text-align: center; color: white;border:none;border-radius: 5px}
+.select_line_before_rel input{width:30%;margin-top:10px;margin-bottom:15px;padding:2px 20px;background-color: #0072bb; text-align: center; color: white;border:none;border-radius: 5px}
+.select_line_before_rel h1{color:black;margin-left: 18%; float: left; font-size: 17px; font-weight: normal;}
+.select_line_before_rel h2{ float: left;font-size: 17px; font-weight: normal;color: #0072bb}
 
-.select_line_relation h1{color:black;float: left; font-size: 34px; font-weight: normal;}
-.select_line_relation h2{margin-left: 4%; float: left;font-size: 34px; font-weight: normal;color: #0072bb}
+.select_line_relation h1{color:black;float: left; font-size: 17px; font-weight: normal;}
+.select_line_relation h2{margin-left: 4%; float: left;font-size: 17px; font-weight: normal;color: #0072bb}
 
-.continue_next,.continue_finish,.button_sure,.button_again{background-color:white; border-radius:10px; padding:4px 40px; border:2px solid #0072bb}
+.continue_next,.continue_finish,.button_sure,.button_again{background-color:white; border-radius:5px; padding:2px 20px; border:1px solid #0072bb}
 
 .select_line{overflow: hidden; width: 90%; margin-left:-45%; position:fixed;left: 50%;z-index: 17}
-.select_line_a{overflow: hidden;margin:30px 0.5%}
+.select_line_a{overflow: hidden;margin:15px 0.5%}
 .select_line_a a{width: 43%;color: #696969}
 .select_line_input{overflow: hidden;}
-.select_line_input input{width: 26%;text-align: center;margin:0 2% 50px 2%}
+.select_line_input input{width: 26%;text-align: center;margin:0 2% 25px 2%}
+.select_line_input button{width: 26%;text-align: center;margin:0 2% 25px 2%}
 
-.step_start{ margin-top:10px;text-align:center;overflow:hidden; float:left}
-.step_start h6{ font-size:28px; text-align:center}
-.step_start_line{ float:left; width:10%;height:2px; background-color:#bebebe; margin-top:63px; margin-left:5%; margin-right:5%}
-.step_start img{ width:30px}
+.step_start{ margin-top:5px;text-align:center;overflow:hidden; float:left}
+.step_start h6{ font-size:14px; text-align:center}
+.step_start_line{ float:left; width:10%;height:1px; background-color:#bebebe; margin-top:32px; margin-left:5%; margin-right:5%}
+.step_start img{ width:15px}
 
 
-.loading_line{ overflow:hidden; left:50%; margin-left:-95px; position:absolute;}
+.loading_line{ overflow:hidden; left:50%; margin-left:-47px; position:absolute;}
 .loading_line img{ float:left}
-.loading_line p{ float:left;color:#696969; margin-left:10px}
+.loading_line p{ float:left;color:#696969; margin-left:5px}
 
 .backgroung_color{ background-color:black; width:100%; z-index:14;height:100%; opacity:0.4; top:0; left:0; position:fixed}
 
-.loading_wait{border-radius:16px;background-color:white;overflow:hidden; text-align:center; position:fixed; top:40%; left:50%; margin-left:-258px; z-index:17}
-.loading_wait img{ width:100px; margin-bottom:20px; margin-top:40px}
-.loading_wait>p{ margin-left:20px; margin-right:20px; margin-bottom:40px}
+.loading_wait{border-radius:8px;background-color:white;overflow:hidden; text-align:center; position:fixed; top:40%; left:50%; margin-left:-129px; z-index:17}
+.loading_wait img{ width:50px; margin-bottom:10px; margin-top:20px}
+.loading_wait>p{ margin-left:10px; margin-right:10px; margin-bottom:20px}
 
-.countdown{ z-index:16;overflow:hidden; width:384px;left:50%; margin-left:-192px; position:fixed;top:40%; background-color:white;border-radius:16px;}
-.countdown h1,.countdown h2,.countdown h3,.countdown h4{ text-align:center; font-size:36px; margin-top:20px; margin-bottom:20px; font-weight:normal}
-.countdown h4{ margin-top:30px; margin-bottom:30px}
+.countdown{ z-index:16;overflow:hidden; width:192px;left:50%; margin-left:-96px; position:fixed;top:40%; background-color:white;border-radius:8px;}
+.countdown h1,.countdown h2,.countdown h3,.countdown h4{ text-align:center; font-size:18px; margin-top:10px; margin-bottom:10px; font-weight:normal}
+.countdown h4{ margin-top:15px; margin-bottom:15px}
