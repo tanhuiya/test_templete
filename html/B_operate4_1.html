@@ -280,7 +280,12 @@ $(document).ready(function(){
         function(){
             window.location.href="B_scene_select2_1.html"
         }
-        )
+        );
+    $(".window_box a").click(
+        function(){
+            $(this).css({"color":"#23527c","text-decoration":"underline"});
+        }
+    );
     $(".countdown h4").click(
         function(){
             window.location.href="B_operate4_1.html";
