@@ -95,7 +95,9 @@ img{margin:0}
 .window_toptitle p{ color:white;margin-left:8px; font-size:16px; line-height:40px; margin-bottom:0}
 .window_box{ text-align:left;overflow:hidden;margin:auto;background-color:white; margin-bottom:5px}
 .window_box a{ line-height:30px;float:left; width:33%; text-align:center}
+.window_box a:active{color:#0c4a7f ;text-decoration:underline}
 .window_title{ float:left;width:100%; overflow:hidden;}
+
 .window_title p{ margin-bottom:0; margin-left:7px; margin-right:8px}
 .window_button{margin-bottom:15px;background-color:white; border-radius:5px; padding:2px 20px; border:1px solid #0072bb}
 
