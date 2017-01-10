@@ -3,12 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="52bb8949-b53a-462f-97b8-62196132896f" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/A_operate4_0.html" afterPath="$PROJECT_DIR$/html/A_operate4_0.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/A_operate4_2.html" afterPath="$PROJECT_DIR$/html/A_operate4_2.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/A_operate4_3.html" afterPath="$PROJECT_DIR$/html/A_operate4_3.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/A_prepare3_1.html" afterPath="$PROJECT_DIR$/html/A_prepare3_1.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/B_operate4_1.html" afterPath="$PROJECT_DIR$/html/B_operate4_1.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/B_prepare3_2.html" afterPath="$PROJECT_DIR$/html/B_prepare3_2.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/B_scene_select2_1.html" afterPath="$PROJECT_DIR$/html/B_scene_select2_1.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -63,7 +57,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="B_scene_select2_1.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="B_scene_select2_1.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/html/B_scene_select2_1.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="569">
@@ -118,10 +112,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="A_operate4_0.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="A_operate4_0.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/html/A_operate4_0.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="587">
+            <state relative-caret-position="512">
               <caret line="309" column="10" lean-forward="false" selection-start-line="309" selection-start-column="10" selection-end-line="309" selection-end-column="10" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#2;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -186,13 +180,13 @@
         <option value="$PROJECT_DIR$/html/A_scene_select2_1.html" />
         <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/html/A_operate4_1.html" />
-        <option value="$PROJECT_DIR$/html/A_operate4_0.html" />
         <option value="$PROJECT_DIR$/html/A_operate4_2.html" />
         <option value="$PROJECT_DIR$/html/A_operate4_3.html" />
         <option value="$PROJECT_DIR$/html/A_prepare3_1.html" />
         <option value="$PROJECT_DIR$/html/B_operate4_1.html" />
         <option value="$PROJECT_DIR$/html/B_prepare3_2.html" />
         <option value="$PROJECT_DIR$/html/B_scene_select2_1.html" />
+        <option value="$PROJECT_DIR$/html/A_operate4_0.html" />
       </list>
     </option>
   </component>
@@ -357,7 +351,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9395000" />
+    <option name="totallyTimeSpent" value="9535000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="6" y="23" width="1400" height="833" extended-state="0" />
@@ -699,16 +693,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html/A_operate4_0.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="587">
-          <caret line="309" column="10" lean-forward="false" selection-start-line="309" selection-start-column="10" selection-end-line="309" selection-end-column="10" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#2;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/html/A_operate4_1.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1633">
@@ -785,6 +769,16 @@
         <state relative-caret-position="569">
           <caret line="120" column="6" lean-forward="false" selection-start-line="120" selection-start-column="6" selection-end-line="120" selection-end-column="6" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/A_operate4_0.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="512">
+          <caret line="309" column="10" lean-forward="false" selection-start-line="309" selection-start-column="10" selection-end-line="309" selection-end-column="10" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#2;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
