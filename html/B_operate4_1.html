@@ -281,11 +281,26 @@ $(document).ready(function(){
             window.location.href="B_scene_select2_1.html"
         }
         );
+    var link = null;
     $(".window_box a").click(
         function(){
+            if (link != null){
+                link.css({"text-decoration":"none"});
+            }
             $(this).css({"color":"#23527c","text-decoration":"underline"});
+            link = $(this);
         }
     );
+    $(".select_line_a a").click(
+        function(){
+            if (link != null){
+                link.css({"text-decoration":"none"});
+            }
+            $(this).css({"color":"#23527c","text-decoration":"underline"});
+            link = $(this);
+        }
+    );
+
     $(".countdown h4").click(
         function(){
             window.location.href="B_operate4_1.html";
