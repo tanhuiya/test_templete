@@ -29,7 +29,7 @@
     <div class="body_prepare_box operate_bg">
     	<div class="step_left">
         	<h1>3</h1>
-            <div class="step_point" style="height:80px"></div>
+            <div class="step_point" style="height:50px"></div>
         </div>
         <div class="step_right">
         	<div class="body_prepare_box_title operate_step_title">操作提示</div>
@@ -148,16 +148,29 @@
 </div>
 <div class="backgroung_color"></div>
 -->
+<div class="window window_color window_number">
+    <div class="window_toptitle"><p>请选择对纤操作码</p></div>
+    <div class="window_box" style="margin-top:20px">
+        <div class="window_title"><p>已有他人选择</p></div>
+        <a>096210</a>
+        <a>233676</a>
+        <a>305294</a>
+    </div>
+    <div class="window_box" style="margin-bottom:14px">
+        <div class="window_title"><p>未选择随机操作码</p></div>
+        <a>096210</a>
+        <a>323423</a>
+        <a>024353</a>
+        <a>234523</a>
+        <a>052346</a>
+        <a>325345</a>
+    </div>
+    <input type="submit" value="确定" class="window_button">
+</div>
 <div class="window_icon window_stop">
     <a href=""><img src="../img/stop4.png"></a>
 </div>
 
-<div class="select_line_relation window window_color">
-    <div class="window_toptitle"><p>对应关系</p></div>
-    <p style="margin-bottom: 0;margin-top: 30px">操作员B已经确认选择对应关系为：</p>
-    <div style="width: 100%;overflow: hidden;"><h2>FLine5</h2><h1>&nbsp--&nbsp用户端所测光纤</h1></div>
-    <p style="margin-top: 20px;margin-bottom: 20px">请稍后…</p>
-</div>
 
 <div class="select_line_relation window window_color">
     <div class="window_toptitle"><p>对应关系</p></div>
@@ -189,15 +202,21 @@ $(".backgroung_color").hide();
 $(".prepare_box_1").hide();
 $(".window_icon").hide()
 $(".prepare_box_2").hide();
-$(".countdown").hide()
-
+$(".countdown").hide();
+$(".select_line_relation").hide();
 
 $(document).ready(function(){
-	$(".window_button").click(
+    $(".window_button").click(
+        function(){
+            $(".window").hide();
+            $(".backgroung_color").hide();
+            $(".number").show()
+            }
+    );
+	$(".number").click(
 		function(){
-			$(".window").hide();
-			$(".backgroung_color").hide();
-			$(".number").show()
+			$(".window_number").show();
+			$(".backgroung_color").show();
 			}
 	);
     $(".bottom_righttop").click(
@@ -230,12 +249,6 @@ $(document).ready(function(){
             $(".backgroung_color").hide()
             }
     );
-	$(".button_prepare").click(
-		function(){
-			$(".loading_wait").show();
-			$(".backgroung_color").show();
-			}
-	);
     $(".bottom_step").click(
         function(){
             $(".select_line_relation").show();
@@ -248,12 +261,6 @@ $(document).ready(function(){
             $(".backgroung_color").hide()
         }
         )
-	$(".number").click(
-		function(){
-			$(".window").show();
-			$(".backgroung_color").show();
-			}
-	);
 	$(".loading_wait").click(
 		function(){
 			$(".loading_wait").hide();
@@ -264,18 +271,13 @@ $(document).ready(function(){
 			$(".countdown h4").css("color","#0072bb");
 			}
 	);
-	$(".countdown h4").click(
-		function(){
-			window.location.href="A_operate4_0.html";
-			}
-	);
 	$(".bottom_stop").click(
 		function(){
 			$(".window_stop").show();
 			$(".backgroung_color").show();
 			}
 	);
-        var link = null;
+        /*var link = null;
         $(".window_box a").click(
             function(){
                 if (link != null){
@@ -284,7 +286,17 @@ $(document).ready(function(){
                 $(this).css({"color":"#23527c","text-decoration":"underline"});
                 link = $(this);
             }
-        );
+        );*/
+        var link = null;
+    $(".window_box a").click(
+        function(){
+            if (link != null){
+                link.css({"color":"#337ab7","text-decoration":"none","active":"false"});
+            }
+            $(this).css({"color":"#23527c","text-decoration":"underline"});
+            link = $(this);
+        }
+    );
 /*	$(".prepare_box_0").show(300).delay(1000).hide(300);
 	$(".prepare_box_1").show().delay(1000).hide(1);
 */	}

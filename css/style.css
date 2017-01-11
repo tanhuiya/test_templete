@@ -15,16 +15,16 @@ img{margin:0}
 
 .body{text-align:center;background-color:#f8f8f8;padding-top:64px}
 .body_logo{text-align:center; overflow:hidden}
-.body_logo img{width:60px; margin-top:50px}
-.body_logo p{ margin-bottom:2.5px;font-size:26px; margin-top:10px; color:#0072bb;}
+.body_logo img{width:80px; margin-top:50px}
+.body_logo p{ margin-bottom:2.5px;font-size:26px; margin-top:20px; color:#0072bb;}
 .body_input{ margin:14px auto;background-color:white;width:62%;  border:1px solid #bebebe; overflow:hidden; border-radius:2px}
-.body_input img{ float:left;height:20px; margin:8px}
-.body_input input{ float:left;width:82%;border:none; margin:6px 0; color:#000}
-.login{margin:8px auto; background-color:#0072bb; border:none; border-radius:4px;color:white; padding:6px; width:46%; font-size:15px}
+.body_input img{ float:left;height:20px; margin:9px}
+.body_input input{ float:left;width:82%;border:none; margin:8px 0; color:#000}
+.login{margin:8px auto; background-color:#0072bb; border:none; border-radius:4px;color:white; padding:7px; width:46%; font-size:18px}
 
 /*scene_select2_1*/
-.nav_back{ float:left; color:#f8f8f8; margin-left:7.5px; font-size:14px}
-.nav_user{ float:right; overflow:hidden; margin-right:7.5px}
+.nav_back{ float:left; color:#f8f8f8; margin-left:15px; font-size:14px}
+.nav_user{ float:right; overflow:hidden; margin-right:15px}
 .nav_userline{ overflow:hidden; margin-top:-30px}
 .nav_user img{ float:right; width:14px; margin:1px 3px;}
 .nav_user p{ float:right; font-size:14px; color:#f8f8f8}
@@ -39,26 +39,28 @@ img{margin:0}
 .body_scene_select_barcode_light{ margin-top:10px;width:35%; float:left; margin-left:10%}
 .body_scene_select_barcode_light p{ margin-top:5px}
 
-.bottom_more{ position:fixed;bottom:15px; right:15px; width:26px; height:26px; }
-.bottom_stop{ position:fixed;bottom:15px; left:15px; width:26px; height:26px;}
-.bottom_step{ position:fixed;bottom:15px; left:153px; width:26px; height:26px;}
-.bottom_righttop{ position:fixed;bottom:85px; right:15px; width:26px; height:26px;}
-.bottom_right{ position:fixed;bottom:50px; right:15px; width:26px; height:26px;}
+.bottom_more{ position:fixed;bottom:15px; right:0px; width:30px; height:30px; }
+.bottom_stop{ position:fixed;bottom:15px; left:0px; width:30px; height:30px;}
+.bottom_step{ position:fixed;bottom:15px; left:153px; width:30px; height:30px;}
+.bottom_righttop{ position:fixed;bottom:85px; right:0px; width:30px; height:30px;}
+.bottom_right{ position:fixed;bottom:50px; right:0px; width:30px; height:30px;}
 
 /*prepare3_1*/
 .number{ overflow:hidden;}
 .number p{ float:right; margin-right:15px; margin-top:10px; color:#0072bb}
 
 .body_prepare_title{ overflow:hidden}
-.body_prepare_title p{ text-align:left; margin-left:15px; font-size:12px; margin-bottom:10px; margin-right:15px}
-.body_prepare_box_title{ text-align:left; margin-left:30px}
+.body_prepare_title p{ text-align:left; margin-left:30px; font-size:14px; margin-bottom:10px; margin-right:15px}
+.body_prepare_box_title{ text-align:left; margin-left:30px;font-size: 18px}
 .body_prepare_box{ overflow:hidden}
-.body_prepare_select{ width:80%; margin-left:10%}
+.body_prepare_box img{width: 40%}
+.body_prepare_select{ width:80%; margin-left:10%; overflow: hidden;}
 .body_prepare_select_line{ width:33.3%; float:left; text-align:left; margin-top:5px; margin-bottom:5px}
 .body_prepare_select ol{ float:left}
 .body_prepare_select ol li{ margin-top:8px; margin-bottom:8px;text-align:left}
 .body_prepare_select ol li input{ padding:4px 8px}
-.body_prepare_select_line label{padding-left:20px}
+.body_prepare_select_line label{padding-left:40px}
+.body_prepare_select_line label input{ margin-left: -25px !important}
 .radio-inline input{ margin-left:-20px}
 #inlineRadio1,#inlineRadio2,#inlineRadio3,#inlineRadio4,#inlineRadio5,#inlineRadio6,#inlineRadio7,#inlineRadio8,#inlineRadio9,#inlineRadio10,#inlineRadio11,#inlineRadio12,#inlineRadio13,#inlineRadio14,#inlineRadio15,#inlineRadio16,#inlineRadio17,#inlineRadio18,#inlineRadio19{width:15px;height:15px}
 
@@ -101,22 +103,24 @@ img{margin:0}
 .window_title p{ margin-bottom:0; margin-left:7px; margin-right:8px}
 .window_button{margin-bottom:15px;background-color:white; border-radius:5px; padding:2px 20px; border:1px solid #0072bb}
 
-.select_line_before_rel button{width:32%;margin-top:10px;margin-bottom:15px;padding:2px 20px;background-color: #0072bb; text-align: center; color: white;border:none;border-radius: 5px}
+.window_start img,.window_stop img{width: 140px}
+
+.select_line_before_rel button{width:32%;margin-top:10px;margin-bottom:15px;line-height:30px;padding:auto 20px;background-color: #0072bb; text-align: center; color: white;border:none;border-radius: 5px}
 .select_line_before_rel input{width:30%;margin-top:10px;margin-bottom:15px;padding:2px 20px;background-color: #0072bb; text-align: center; color: white;border:none;border-radius: 5px}
-.select_line_before_rel h1{color:black;margin-left: 18%; float: left; font-size: 17px; font-weight: normal;}
-.select_line_before_rel h2{ float: left;font-size: 17px; font-weight: normal;color: #0072bb}
+.select_line_before_rel h1{color:black;margin-left: 24%; float: left; font-size: 17px; font-weight: normal; margin-top: 10px}
+.select_line_before_rel h2{ float: left;font-size: 17px; font-weight: normal;color: #0072bb; margin-top: 10px}
 
 .select_line_relation h1{color:black;float: left; font-size: 17px; font-weight: normal;}
-.select_line_relation h2{margin-left: 4%; float: left;font-size: 17px; font-weight: normal;color: #0072bb}
+.select_line_relation h2{margin-left: 9%; float: left;font-size: 17px; font-weight: normal;color: #0072bb}
 
 .continue_next,.continue_finish,.button_sure,.button_again{background-color:white; border-radius:5px; padding:2px 20px; border:1px solid #0072bb}
 
 .select_line{overflow: hidden; width: 90%; margin-left:-45%; position:fixed;left: 50%;z-index: 17}
-.select_line_a{overflow: hidden;margin:15px 0.5%}
-.select_line_a a{width: 43%;color: #696969}
+.select_line_a{overflow: hidden;margin:15px 2%}
+.select_line_a a{width: 43%;color: #696969; margin: auto 1%; font-size: 16px;}
 .select_line_input{overflow: hidden;}
-.select_line_input input{width: 26%;text-align: center;margin:0 2% 25px 2%}
-.select_line_input button{width: 26%;text-align: center;margin:0 2% 25px 2%}
+.select_line_input input{width: 26%;text-align: center;margin:0 2% 25px 2%; line-height: 30px}
+.select_line_input button{width: 26%;text-align: center;margin:0 2% 25px 2%;padding:4px auto;line-height: 30px}
 
 .step_start{ margin-top:5px;text-align:center;overflow:hidden; float:left}
 .step_start h6{ font-size:14px; text-align:center}

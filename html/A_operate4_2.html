@@ -270,7 +270,7 @@ $(document).ready(function(){
 			$(".backgroung_color").show();
 			}
 	);
-        var link = null;
+        /*var link = null;
         $(".window_box a").click(
             function(){
                 if (link != null){
@@ -279,7 +279,17 @@ $(document).ready(function(){
                 $(this).css({"color":"#23527c","text-decoration":"underline"});
                 link = $(this);
             }
-        );
+        );*/
+        var link = null;
+    $(".window_box a").click(
+        function(){
+            if (link != null){
+                link.css({"color":"#337ab7","text-decoration":"none","active":"false"});
+            }
+            $(this).css({"color":"#23527c","text-decoration":"underline"});
+            link = $(this);
+        }
+    );
 /*	$(".prepare_box_0").show(300).delay(1000).hide(300);
 	$(".prepare_box_1").show().delay(1000).hide(1);
 */	}

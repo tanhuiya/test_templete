@@ -161,7 +161,7 @@
 
 <div class="select_line_before_rel window window_color">
     <div class="window_toptitle"><p>操作提示</p></div>
-    <p style="margin-bottom: 0;margin-top: 30px">当前检测光纤</p>
+    <p style="margin-bottom: 0;margin-top: 15px">当前检测光纤</p>
     <div style="width: 100%;overflow: hidden;"><h1>光纤名称为:</h1><h2>FLine5</h2></div>
     <p>请在光纤上进行标记</p>
     <button type="button" class="before_sure">确认</button>
@@ -180,7 +180,7 @@
 <div class="window window_color continue_yn">
     <div class="window_toptitle"><p>是否继续</p></div>
     <div class="select_line_input">
-        <button type="button"  class="continue_next" style="width: 80%;margin: 30px auto">检测下一根光纤</button>
+        <button type="button"  class="continue_next" style="width: 80%;margin: 20px auto">检测下一根光纤</button>
         <button type="button"  class="continue_finish" style="width: 80%">结束检测</button>
 
         <!--<input type="" name="" value="检测下一根光纤" class="continue_next" style="width: 80%;margin: 30px auto">-->
@@ -281,20 +281,10 @@ $(document).ready(function(){
             window.location.href="B_scene_select2_1.html"
         }
         );
-    var link = null;
-    $(".window_box a").click(
-        function(){
-            if (link != null){
-                link.css({"text-decoration":"none"});
-            }
-            $(this).css({"color":"#23527c","text-decoration":"underline"});
-            link = $(this);
-        }
-    );
     $(".select_line_a a").click(
         function(){
             if (link != null){
-                link.css({"text-decoration":"none"});
+                link.css({"text-decoration":"none","active":"false"});
             }
             $(this).css({"color":"#23527c","text-decoration":"underline"});
             link = $(this);
