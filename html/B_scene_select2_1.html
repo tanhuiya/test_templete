@@ -42,7 +42,7 @@
                 <p>光纤集束端</p>
             </div>
             <div class="body_scene_select_barcode_light">
-            	<img src="../img/light_user.png">
+            	<img src="../img/light_user.png" class="user_side">
                 <p>光纤用户端</p>
             </div>
         </div>
@@ -61,7 +61,7 @@
         <div class="loading_line"><img src="../img/load.png"><p>请稍后……</p></div>
     </div>
 </div>-->
-<div class="bottom_more"></div>
+<!--<div class="bottom_more"></div>-->
 
 <div class="window window_color">
     <div class="window_toptitle"><p>请选择对纤操作码</p></div>
@@ -84,7 +84,7 @@
 </div>
 
 
-<a class="loading_wait" href="B_prepare3_2.html">
+<a class="loading_wait" href="B_prepare3_2.html" style="margin-left: -129px">
     <div class="window_toptitle"><p>对应关系</p></div>
 	<img src="../img/load.png">
     <p>正在等待其他协同人员连接到服务器…</p>
@@ -102,7 +102,7 @@ $(document).ready(function(){
             $(".number").show()
 			}
 	);
-	$(".bottom_more").click(
+	$(".user_side").click(
 		function(){
 			$(".loading_wait").show();
 			$(".backgroung_color").show();
